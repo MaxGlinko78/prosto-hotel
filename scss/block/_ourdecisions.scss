@@ -1,0 +1,20 @@
+.ourdecisions-cards__wrapp{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  gap: 30px;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+  margin-top: 80px;
+  
+
+  
+}
+
+.ourdecisions-card{
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+       
+}
+
