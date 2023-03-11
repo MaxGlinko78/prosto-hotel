@@ -2,12 +2,17 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 115px;
+  margin-top: 10px;
+  height: 150px;
   color: #FFFFFF;
   background: #000;
  }
 
-
+.footer-logo{
+  border:2px solid #fff;
+  padding: 10px;
+  border-radius: 7.5px;
+}
 .footer-text{
   font-family: 'Noto Sans Adlam Unjoined';
     font-style: normal;
