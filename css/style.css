@@ -119,6 +119,18 @@ section {
   padding: 10px;
 }
 
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.065em;
+  color: #000000;
+  text-align: center;
+  margin-top: 60px;
+}
+
 p > span {
   font-size: 3rem;
   font-weight: 600;
@@ -450,18 +462,6 @@ p > span {
   border-radius: 50%;
 }
 
-.title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  letter-spacing: 0.065em;
-  color: #000000;
-  text-align: center;
-  margin-top: 90px;
-}
-
 .decisions-content {
   margin-top: 70px;
   margin-left: 50px;
@@ -497,6 +497,7 @@ p > span {
   justify-items: stretch;
   align-items: stretch;
   margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 .ourdecisions-card {
@@ -506,7 +507,8 @@ p > span {
 }
 
 .cards-rates__wrapp {
-  margin-top: 80px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -584,7 +586,8 @@ p > span {
 }
 
 .slider-companys__wrapp {
-  padding-top: 80px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .slider-company {
