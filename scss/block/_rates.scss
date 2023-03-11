@@ -38,15 +38,20 @@
   font-size: 24px;
   background-color: #0891b2;
   border-radius: 5px;
+  transition: all 0.5s ease-in-out;
   .fa-fighter-jet{
+    transition: all 0.5s ease-in-out;
     margin-left: 10px;
   }
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .btn-rates:hover {
+    background-color: #ff4151;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   p{filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); }
-    .fa-fighter-jet {filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+    .fa-fighter-jet {
+      transform: rotate(180deg);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
 }
 .btn-rates:visited {
   box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.25);
