@@ -1,0 +1,90 @@
+/*====================rates settings====================*/
+.rates{
+  background-color: rgba(247, 247, 247, 0);
+}
+.cards-rates__wrapp{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.card-title__rates {
+  font-size: 24px;
+  text-align: center;
+ 
+}
+.card-subtitle__rates {
+  font-size: 15px;
+}
+
+.card-rate {
+  width: 300px;
+  padding: 10px;
+  
+}
+
+.card-rate:hover{
+  transform: translateY(0px);
+  box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+.btn-rates {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 24px;
+  background-color: #0891b2;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+  .fa-fighter-jet{
+    transition: all 0.5s ease-in-out;
+    margin-left: 10px;
+  }
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.btn-rates:hover {
+    background-color: #ff4151;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  p{filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); }
+    .fa-fighter-jet {
+      transform: rotate(180deg);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+}
+.btn-rates:visited {
+  box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.often{
+  background-color: #ff4151;
+}
+.often:hover{
+  background-color: #0891b2;
+  
+}
+.card-content__rates{
+  text-align: center;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-rate__bottom>ul>li {
+  margin-bottom: 5px;
+}
+
+.line {
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 1px;
+  background-color: #B3B3B3;
+
+}

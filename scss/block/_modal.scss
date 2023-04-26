@@ -1,0 +1,128 @@
+/*====================Modal settings====================*/
+.modal {
+  position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, .5);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.modal-dialog {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 380px;
+  text-align: center;
+  border: 3px solid white;
+  background: #0891B2;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+
+.modal__content {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  padding: 40px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 4px;
+  max-height: 80vh;
+  overflow-y: auto
+}
+
+.header-modal__question--title {
+  margin: 0 auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.header-modal__close {
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  border: none;
+  background: none;
+  font-size: 30px;
+  font-weight: 600;
+  color: #ff4151;
+  cursor: pointer;
+}
+
+.form-control {
+  width: 309px;
+  height: 63px;
+  background: #f8f8f8;
+  -webkit-box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.textarea {
+  padding-top: 20px;
+  height: 200px;
+}
+
+.form-control__btn {
+  width: 208px;
+  height: 41px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fdde76), to(#ffbb01));
+  background: linear-gradient(180deg, #ff4151 0%, #ff4151 100%);
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  padding: 13px 40px;
+  cursor: pointer;
+}
+
+.form-control__btn:hover {
+  -webkit-box-shadow: 0px 4px 0px #b68500;
+  box-shadow: 0px 4px 0px #b68500;
+}
+
+.active {
+  display: block;
+  -webkit-transition: 1.5s ease-in-out;
+  transition: 1.5s ease-in-out;
+}
+
+.cities-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.gr-city {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  width: 300px;
+  height: 550px;
+}

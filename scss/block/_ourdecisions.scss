@@ -1,0 +1,31 @@
+/*====================ourdecisions settings====================*/
+section.ourdecisions {
+      color: #151515;
+        background-color: rgba(247, 247, 247, 0);
+        position: relative;
+        background-image: url(../images/shape.png?6364f84b);
+        background-size: cover;
+        background-position: center;
+}
+
+.ourdecisions-cards__wrapp{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  gap: 30px;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  
+
+  
+}
+
+.ourdecisions-card{
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+       
+}
+

@@ -1,0 +1,20 @@
+/*====================description settings====================*/
+.description-content{
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.description-cards__wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  //justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.description-card{
+  height: 450px;
+}
