@@ -1,162 +1,226 @@
+/*====================header settings====================*/
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin: 0 auto;
   max-width: 1920px;
   width: 100%;
-  height: 600px;
-  margin-left: 10px;
+  height: 100px;
+  background: #0891B2;
+  padding: 10px;
+  // position: sticky;
+  transition: all 1.7s ease-in-out;
+}
+.header-logo__wrapp{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
 }
 
-.header-content {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  
+.logo-item {
+  font-family: 'Noto Sans Adlam Unjoined', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.header-info {
-  margin-top: 15px;
-  position: absolute;
-  width: 100%;
+// .header-image{
+//   filter:
+// }
+
+.header-description {
+  display: flex;
+  align-items: center;
+
+}
+
+.fa-users {
+  font-size: 2.3rem;
+  color: #FFFFFF
+}
+
+.header-description__text {
+  white-space: nowrap;
+  margin-left: 15px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.2rem;
+  color: #FFFFFF;
+
+  .header-description__titel {
+    font-weight: 600;
+  }
+}
+
+.header-content__addres {
+  white-space: nowrap;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.055em;
+
+  color: #FFFFFF;
+}
+
+.topmenu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 10;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  border: 1px solid #0891B2;
+  // filter: drop-shadow(2px -2px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+  padding: 5px 10PX;
   color: #FFFFFF;
-
-  // border: 2px solid orange;
+  transition: all 0.5s;
 }
 
-.slide-titles__wrapp {
-  position: absolute;
-  top: 15%;
-  left: 5%;
- }
-.slider-text__wrapp {
-  width: 50%;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+.menu-item:hover {
+  border: 1px solid #FFFFFF;
+  filter: drop-shadow(2px -2px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+  z-index: 100;
+}
+
+.header-btn {
+  white-space: nowrap;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  color: #FFFFFF;
+  background: #25A4AD;
+  border-radius: 5px;
+  padding: 10px 10px;
+
+}
+
+.header-btn:hover {
+  box-shadow: 0px 60.8904px 48.7123px rgba(49, 49, 49, 0.1), 0px 39.466px 28.5283px rgba(49, 49, 49, 0.0759259), 0px 23.4541px 15.5158px rgba(49, 49, 49, 0.0607407), 0px 12.1781px 7.91576px rgba(49, 49, 49, 0.05), 0px 4.96144px 3.96915px rgba(49, 49, 49, 0.0392593), 0px 1.1276px 1.91692px rgba(49, 49, 49, 0.0240741);
+}
+
+.header-btn:focus {
+  border: none;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.topmenu>li {
+ position: relative;
+ 
   
 }
 
+.topmenu>li>a {
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.55px;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
 
-.header-info__title{
-  margin-left: 10px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2em;
+.topmenu li a:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.submenu-link:hover{
+  transition: .5s ease-in-out;
+  .fa-chevron-down{
+    transition: .5s ease-in-out;
+    transform: rotateX(180deg) ;
   }
-
-.header-info__contacts{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  letter-spacing: 0.08em;
 }
 
-.header-info__btns{
-  display: flex;
-  align-items: center;
-  margin-right: 10px;
+// .submenu-link:after {
+//   content: "\f107";
+//   font-family: "FontAwesome";
+//   color: inherit;
+//   margin-left: 10px;
+// }
+// .submenu-link:hover:after{
+//   transform: rotate(90deg);
+//   color: lime;
+  
+// }
+
+.submenu {
+  background: #0891B2;
+  position: absolute;
+  left: 0;
+  top: 115%;
+  z-index: 5;
+  width: 300px;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+  border-radius: 5px;
 }
-    .btn {
-      position: relative;
-      padding: 20px 40px;
-      color: #fff;
-      text-decoration: none;
-      display: inline-block;
-      text-transform: uppercase;
-      font-size: 0.8em;
-      border: 2px solid transparent;
-      transition: .5s;
-      margin-right: 10px;
-    }
-  
-        .btn:hover {
-      border: 2px solid #fff;
-    }
-  
-                .btn:before {
-      content: '';
-      position: absolute;
-      inset: 0 8px;
-      border-left: 2px solid #fff;
-      border-right: 2px solid #fff;
-      transition: 1s;
-    }
-  
-        .btn:after {
-      content: '';
-      position: absolute;
-      inset: 8px 0;
-      border-top: 2px solid #fff;
-      border-bottom: 2px solid #fff;
-      transition: 1s;
-    }
-  
-    button.btn1:hover::before {
-      inset: 16px 8px;
-    }
-  
-    button.btn1:hover::after {
-      inset: 8px 16px;
-    }
-  
-    button.btn2:hover::before {
-      inset: 0 8px;
-      transform: rotateY(180deg);
-    }
-  
-    button.btn2:hover::after {
-      inset: 8px 0;
-      transform: rotateX(180deg);
-    }
-  
-    button.btn3:hover::before {
-      inset: 0 -12px;
-      transform: skewY(15deg);
-    }
-  
-    button.btn3:hover::after {
-      inset: -12px 0;
-      transform: skewX(15deg);
-    }
-  
-    button.btn4:hover,
-    button.btn5:hover,
-    button.btn6:hover {
-      border-color: transparent;
-    }
-  
-  
-    a.btn4:hover::before {
-      inset: 0 30px;
-      transform: skew(25deg);
-    }
-  
-    button.btn4:hover::after {
-      inset: 10px 0;
-      transform: skew(-25deg);
-    }
-  
-    button.btn5:hover::before,
-    button.btn5:hover::after {
-      inset: 0;
-    }
-  
-    button.btn6:hover::before {
-      inset: 0 0;
-      transform: rotate(-10deg);
-    }
-  
-    button.btn6:hover::after {
-      inset: 0 -4px;
-      transform: rotate(5deg);
-    }
+
+.submenu li{
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+
+}
 
 
-    .btn-massage{
-      position: absolute;
-      bottom: 2%;
-      right: 2%;
-      z-index:10;
-    }
+.submenu a {
+  display: block;
+  color:#fff;
+  text-align: left;
+  padding: 12px 15px;
+  font-size: 14px;
+  
+}
+
+
+
+.submenu li:last-child a {
+  border-bottom: none;
+}
+
+.topmenu>li:hover .submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+// .header-top-fixed {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   z-index: 2000;
+//   transition: all .7s ease-in-out;
+// }

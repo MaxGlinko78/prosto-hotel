@@ -1,22 +1,68 @@
 /*========== ADAPTIVE ==========*/
 
-@media (max-width: 1920px) {
-}
 @media (max-width: 1600px) {
+  .header {
+    height: 150px;
+  }
+  .header-description__subtitel {
+    white-space: normal;
+  }
+  .header-navigation {
+    width: 50%;
+    margin-right: 4%;
+  }
+  .topmenu {
+    justify-content: flex-start;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  .prosto-slider {
+    width: 100%;
+  }
 }
-@media (max-width: 1536px) {
-}
+
 @media (max-width: 1440px) {
+  .header-navigation {
+    width: 60%;
+    margin-right: 4%;
+  }
+
+  .description-cards__wrap {
+    justify-content: start;
+  }
 }
 @media (max-width: 1366px) {
+  .description-cards__wrap {
+    justify-content: space-between;
+  }
 }
 @media (max-width: 1280px) {
+  .header {
+    height: 200px;
+  }
+  .header-navigation {
+    width: 25%;
+    margin-right: 0%;
+  }
 }
 @media (max-width: 1194px) {
+  .topmenu {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: baseline;
+  }
 }
 @media (max-width: 1180px) {
 }
 @media (max-width: 1080px) {
+  .footer-logo {
+    margin: 2%;
+  }
+  .description-cards__wrap {
+    justify-content: space-between;
+  }
 }
 @media (max-width: 1024px) {
 }

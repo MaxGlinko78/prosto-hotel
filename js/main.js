@@ -6,18 +6,16 @@ $('.prosto-slider').slick({
   cssEase: 'linear',
   autoplay: true,
   autoplaySpeed: 3000,
-  arrows:true,  
-
 });
 
-// $('.autoplay').slick({
-//   slidesToShow: 4,
-//   slidesToScroll: 1,
-//   autoplay: true,
-//   autoplaySpeed: 2000,
-//   dots: false,
-//   arrows:false,
-// });
+$('.autoplay').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  dots: false,
+  arrows:false,
+});
 
 
 /*===== modals ======*/
