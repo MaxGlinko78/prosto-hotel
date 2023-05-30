@@ -1,13 +1,13 @@
-.empty-info__wpap{
+/*==================== Empty settings ====================*/
+.empty-info__wpap {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-
 }
 
 .empty-info__btn {
-  font-family: 'Inter';
+  font-family: inherit;
   font-weight: 600;
   letter-spacing: 0.2em;
   margin-top: 20px;
@@ -15,46 +15,44 @@
   background-color: rgba(255, 255, 255, 0);
   color: #0891b2;
   border: 0.5px solid #0891b2;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 
   &:hover {
     color: #fff;
     background-color: #0891b2;
-
   }
 }
 
 .empty-info__wpap--image,
-.empty-info__wpap--content{
-width: 700px;
+.empty-info__wpap--content {
+  width: 700px;
 }
 
-.empty-info__wpap--image img{
+.empty-info__wpap--image img {
   width: 100%;
   height: 100%;
 }
-.empty-info__wpap--title{
+.empty-info__wpap--title {
   font-size: 2.2em;
   margin-bottom: 20px;
- 
 }
 
-.empty-info__wpap--content{
+.empty-info__wpap--content {
   padding: 20px;
   .empty-info__wpap--title {
-      font-size: 2.2em;
-      margin-bottom: 20px;  
-    }
-    p{
-      margin-bottom: 20px;
-    }
-    li{
-      list-style: inside;
-      margin-bottom: 5px;
-    }    
+    font-size: 2.2em;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  li {
+    list-style: inside;
+    margin-bottom: 5px;
+  }
 }
 
-.empty-info__counter{
+.empty-info__counter {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -63,52 +61,48 @@ width: 700px;
   font-family: "Inter";
   color: #1c1c1c;
   margin-top: 40px;
-  .empty-info__counter--number{
+  .empty-info__counter--number {
     font-size: 2em;
   }
-  p{
+  p {
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 600;
   }
 }
 
-.empty-info__description--wrapp{
+.empty-info__description--wrapp {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 80px;
-padding: 20px;
-
-
+  padding: 20px;
 }
-.empty-info__description--card{
-  width: 350px; 
+.empty-info__description--card {
+  width: 350px;
   height: 450px;
   margin-bottom: 20px;
 
-  .description--card__image{
+  .description--card__image {
     width: 350px;
     height: auto;
     margin-bottom: 20px;
   }
-  .description--card__title{
+  .description--card__title {
     font-size: 16px;
     line-height: 1.4;
     font-weight: 500;
     margin-bottom: 20px;
-
   }
-
 }
-.team-cards__wrap{
+.team-cards__wrap {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.teams-title{
+.teams-title {
   margin: 0 auto;
   text-align: center;
   font-size: 2em;
@@ -118,40 +112,40 @@ padding: 20px;
   width: 250px;
 }
 
-.teams-card{
+.teams-card {
   width: 255px;
   height: 455px;
   padding: 10px;
 }
-.teams-image{
+.teams-image {
   width: 255px;
   height: auto;
   margin-bottom: 5px;
-  img{
+  img {
     width: 100%;
     height: 100%;
   }
 }
-.teams-name{
+.teams-name {
   font-size: 2em;
   line-height: 1.4;
   margin-bottom: 5px;
 }
 
-.teams-post{
+.teams-post {
   font-size: 1.2em;
   line-height: 1.4;
   color: #868686;
-  
 }
 
-.teams-contacts__icons{
+.teams-contacts__icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 10px;
 }
 
-.fa-brands:hover{
+.fa-brands:hover {
   color: #0891b2;
 }
+/*==================== Empty settings ====================*/

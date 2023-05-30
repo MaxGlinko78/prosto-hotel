@@ -1,3 +1,5 @@
+/*====================Slider settings====================*/
+
 .prosto-slider {
   //border:2px solid lime;
   max-width: 1920px;
@@ -27,6 +29,7 @@
 
 .slide-titles__wrapp {
   color: #fff;
+
   position: absolute;
   left: 10%;
   top: 10%;
@@ -34,7 +37,7 @@
 
 .slider-title {
   margin-bottom: 20px;
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -47,7 +50,7 @@
 }
 
 .slider-subtitle {
-  font-family: "Roboto";
+  font-family: inherit;
   margin-bottom: 10px;
   font-style: normal;
   font-weight: 600;
@@ -58,7 +61,7 @@
 }
 
 .slider-list {
-  font-family: "Inter";
+  font-family: inherit;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -77,11 +80,11 @@
   right: 10%;
   bottom: 10%;
   width: 400px;
-  border: 2px solid #fff;
-  font-family: "Roboto";
+  border: 2px solid #ffffff3b;
+  font-family: inherit;
   font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 1em;
   line-height: 19px;
   letter-spacing: 0.155em;
 }
@@ -209,3 +212,5 @@
   border: 1px solid #fff;
   border-radius: 50%;
 }
+
+/*====================Slider settings====================*/

@@ -65,18 +65,140 @@
   }
 }
 @media (max-width: 1024px) {
+  .logo-item {
+    margin-bottom: 5%;
+  }
+  .header-navigation {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 150px;
+  }
+
+  .header-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .footer-tagline__titel {
+    font-size: 20px;
+  }
 }
-@media (max-width: 1000px) {
-}
-@media (max-width: 926px) {
+
+@media (max-width: 961px) {
+  .header-navigation {
+    width: 50px;
+  }
+
+  .header-menu {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+
+  .footer {
+    font-size: 0.9em;
+  }
+
+  .footer-logo {
+    margin: 1%;
+  }
+  .footer-tagline__titel {
+    margin-left: -50px;
+  }
+  .footer-tagline__icon {
+    margin-bottom: -45px;
+  }
+  .footer-privacy {
+    text-align: center;
+    margin-left: 10px;
+  }
+  .footer-contacts {
+    white-space: nowrap;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
 }
 @media (max-width: 900px) {
 }
 @media (max-width: 896px) {
+  .header-menu__burger {
+    top: 50%;
+  }
+  .slider-text__wrapp {
+    bottom: 18%;
+  }
+  .description-cards__wrap {
+    justify-content: space-evenly;
+  }
+  .card-rate {
+    width: 250px;
+  }
+
+  .card-title__rates {
+    font-size: 20px;
+  }
+  .card-subtitle__rates {
+    font-size: 13px;
+  }
+
+  .btn-rates {
+    font-size: 1.3em;
+  }
+  .card-content__rates > p > span {
+    font-size: 2.3rem;
+    font-weight: 600;
+  }
+  .card-rate__bottom > ul > li {
+    font-size: 0.8em;
+  }
+
+  .footer-text {
+    font-size: 1.5em;
+  }
+  .footer-image img {
+    width: 85%;
+  }
 }
-@media (max-width: 864px) {
-}
-@media (max-width: 844px) {
+@media (max-width: 850px) {
+  .header-image img {
+    width: 80%;
+  }
+  .logo-item {
+    font-size: 1.6em;
+  }
+   .header-description__icon{
+    align-self: baseline;
+  }
+  .slider-text__wrapp {
+    font-size: 0.8em;
+    bottom: 25%;
+    width: 360px;
+  }
+  .ourdecisions-cards__wrapp {
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 10px;
+  }
+
+  .ourdecisions-card {
+    width: 250px;
+    .card-title {
+      font-size: 1em;
+    }
+  }
+  .card-content p {
+    font-size: 0.8em;
+  }
+
+  .footer-text {
+    font-size: 1.2em;
+  }
+  .footer-buttons button {
+    padding: 6px 6px;
+    font-size: 0.8em;
+  }
 }
 @media (max-width: 834px) {
 }

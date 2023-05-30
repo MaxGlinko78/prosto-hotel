@@ -5,7 +5,7 @@ $('.prosto-slider').slick({
   fade: true,
   cssEase: 'linear',
   autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 2000,
 });
 
 $('.autoplay').slick({
@@ -51,4 +51,13 @@ function CloseModal() {
       { CloseModal(); }
   });
 
+});
+
+/* = burger menu =*/
+
+const menuBtn = document.querySelector(".menu-btn");
+const BurgMenu = document.querySelector(".header-menu__burger");
+menuBtn.addEventListener("click", () => {
+  menuBtn.classList.toggle("menu-btn_active");
+  BurgMenu.classList.toggle("active");
 });
