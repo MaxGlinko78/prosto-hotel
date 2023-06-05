@@ -1544,4 +1544,30 @@ section.ourdecisions {
     flex-direction: column;
     padding: 5% 2%;
   }
+}
+@media (max-width: 395px) {
+  .slider-title {
+    font-size: 1em;
+    line-height: 25px;
+  }
+  .slider-subtitle {
+    font-size: 0.8em;
+  }
+  .slider-list {
+    font-size: 0.6em;
+  }
+  .slider-text__wrapp {
+    width: 230px;
+    bottom: 11%;
+    right: 20%;
+  }
+  .title {
+    margin-top: 0px;
+    line-height: 1.5em;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    background: red;
+  }
 }/*# sourceMappingURL=style.css.map */
