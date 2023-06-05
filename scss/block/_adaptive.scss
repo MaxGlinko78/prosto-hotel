@@ -388,12 +388,28 @@
   .title {
     margin-top: 0px;
     line-height: 1.5em;
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 375px) {
+  .logo-item {
+    font-size: 1.5em;
+  }
+  .slider-text__wrapp {
+    right: 18%;
+  }
+  .companys-container {
+    height: 160px;
+  }
+  .slider-item__company {
+    height: 60px;
   }
 }
 @media (max-width: 360px) {
+  .slider-text__wrapp {
+    width: 220px;
+    bottom: 5%;
+  }
 }
 @media (max-width: 320px) {
-  .header {
-    background: red;
-  }
 }
