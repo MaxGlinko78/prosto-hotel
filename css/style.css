@@ -1251,6 +1251,9 @@ section.ourdecisions {
   }
 }
 @media (max-width: 1194px) {
+  .header{
+    background: #4184ff;
+  }
   .topmenu {
     flex-wrap: nowrap;
     flex-direction: column;
