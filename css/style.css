@@ -1251,9 +1251,6 @@ section.ourdecisions {
   }
 }
 @media (max-width: 1194px) {
-  .header{
-    background: #4184ff;
-  }
   .topmenu {
     flex-wrap: nowrap;
     flex-direction: column;
@@ -1496,7 +1493,7 @@ section.ourdecisions {
     height: auto;
     position: relative;
     padding: 20px;
-    background: #4184ff;
+    background: orange;
   }
   .header > .container {
     margin-top: 5%;
