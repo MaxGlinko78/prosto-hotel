@@ -1496,6 +1496,7 @@ section.ourdecisions {
     height: auto;
     position: relative;
     padding: 20px;
+    background: #4184ff;
   }
   .header > .container {
     margin-top: 5%;
